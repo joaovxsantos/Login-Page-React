@@ -76,5 +76,5 @@
 /* Link */
 
 .login-container span a {
-  color: var(--black);
+  color:var(--black);
 }
