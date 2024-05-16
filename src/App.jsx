@@ -1,8 +1,9 @@
 import './App.css'
 import Input from './assets/Components/Input'
+import InteractiveButtons from './assets/Components/InteractiveButtons'
 
 function App() {
-  
+
   const dataInputs = [{
     type: "email",
     icon: "person-outline"
