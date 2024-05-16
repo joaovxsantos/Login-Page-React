@@ -15,7 +15,13 @@ function App() {
 
   return (
     <>
-
+      <div className="login-container">
+        <h1>System Login</h1>
+        {dataInputs.map((data) => <Input key={data.type} {...data} />)}
+        <InteractiveButtons />
+        <button type="submit" id="btn">Login</button>
+        <span>Don't have an account? <a href="">register</a></span>
+      </div>
     </>
   )
 }
