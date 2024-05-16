@@ -36,3 +36,17 @@
   padding: 15px 0;
   outline: none;
 }
+
+/* Div rememberButtons e seus elementos */
+.login-container .rememberButtons {
+  width: var(--width-elements);
+  margin: 10px 0;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--gray);
+}
+.login-container .rememberButtons .checkEl [type="checkbox"] {
+  margin-right: 2px;
+}
