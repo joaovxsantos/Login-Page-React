@@ -14,3 +14,25 @@
   color: var(--black);
   margin-bottom: 20px;
 }
+
+/* Div Inputs e seus elementos */
+.login-container .inputs {
+  border: 1px solid var(--white);
+  width: var(--width-elements);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background: var(--white);
+}
+
+.login-container .inputs:first-of-type {
+  margin-bottom: 25px;
+}
+
+.login-container .inputs input {
+  background: transparent;
+  width: 100%;
+  border: none;
+  padding: 15px 0;
+  outline: none;
+}
