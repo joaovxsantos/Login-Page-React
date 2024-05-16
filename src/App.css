@@ -17,12 +17,12 @@
 
 /* Div Inputs e seus elementos */
 .login-container .inputs {
-  border: 1px solid var(--white);
   width: var(--width-elements);
   display: flex;
   align-items: center;
   padding: 0 10px;
   background: var(--white);
+  border-radius: 4px;
 }
 
 .login-container .inputs:first-of-type {
@@ -35,6 +35,10 @@
   border: none;
   padding: 15px 0;
   outline: none;
+}
+
+.login-container .inputs input::placeholder {
+  opacity: 0.4;
 }
 
 /* Div rememberButtons e seus elementos */
@@ -50,7 +54,6 @@
 .login-container .rememberButtons .checkEl [type="checkbox"] {
   margin-right: 2px;
 }
-
 
 /* Btn */
 
