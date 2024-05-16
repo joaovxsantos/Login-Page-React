@@ -21,7 +21,7 @@ function App() {
         {dataInputs.map((data) => <Input key={data.type} {...data} />)}
         <InteractiveButtons />
         <button type="submit" id="btn">Login</button>
-        <span>Don't have an account? <a href="">register</a></span>
+        <span>Don't have an account? <a href="#">register</a></span>
       </div>
     </>
   )
