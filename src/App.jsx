@@ -2,7 +2,7 @@ import './App.css'
 import Input from './assets/Components/Input'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
   const dataInputs = [{
     type: "email",
     icon: "person-outline"
